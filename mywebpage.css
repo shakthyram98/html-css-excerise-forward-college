@@ -1,0 +1,20 @@
+:root {
+    background-color: black;
+}
+
+.product-2 {
+    color: rgb(109, 67, 149);
+    font-size: 48px;
+}
+
+p {
+    font-size: 29px;
+    color: crimson;
+}
+
+.on {
+    border: 1px solid black;
+    margin: 80px;
+    padding: 20px;
+    margin-left: 29px 10px 19px 29px;
+}
