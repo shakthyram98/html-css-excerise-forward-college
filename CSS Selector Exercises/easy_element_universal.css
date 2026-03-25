@@ -1,0 +1,22 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: red;
+    font-size: 32px;
+}
+
+p{
+    color: blue;
+    font-size: 16px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: orange;
+    padding: 10px;
+}

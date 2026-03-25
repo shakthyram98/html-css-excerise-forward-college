@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Combinator Selectors</title>
+        <link rel="stylesheet" href="medium_combinators.css">
+    </head>
+    <body>
+        <h1>Combinator Selectors Example</h1>
+        <div class="container">
+            <p>First paragraph in container (direct child, so yellow background)</p>
+            <div class="inner-box">
+                <p>Paragraph inside inner-box (descendant of inner-box, so blue background)</p>
+            </div>
+            <p>Second paragraph in container (direct child, yellow background AND adjacent to another p, so red text)</p>
+            <p>Third paragraph in container (direct child, yellow background AND adjacent to another p, so red text)</p>
+        </div>
+        <p>Paragraph outside container (no special styling)</p>
+    </body>
+</html>

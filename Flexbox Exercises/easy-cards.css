@@ -1,0 +1,26 @@
+h1 {
+    margin: 50px;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    gap: 20px; /* i asked help in Google and Claude for this because when I type space or spacing in css it didn't show anything. That's why i use AI */
+}
+
+.card {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}

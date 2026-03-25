@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.hover-box {
+    background-color: blue;
+    color: white;
+    padding: 18px;
+}
+
+[placeholder$="Click me and type something"] {
+    background-color: yellow;
+    padding-right: 30px;
+}
+
+.fancy-paragraph::first-letter {
+    font-size: 2em;
+    color: red;
+    font-weight: bolder;
+}
+
+.interactive-btn:active {
+    background-color: red;
+}
