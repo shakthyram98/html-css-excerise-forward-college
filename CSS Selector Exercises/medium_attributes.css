@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* === Putting a square bracket like this "[]" is to focus that one thing in the family group */
+input[type="text"] {
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+input[type="email"] {
+    border: 2px solid green;
+    padding: 5px;
+}
+
+a[href*="example"] {
+    color: red;
+    font-weight: bold;
+}
+
+[placeholder$="password"] {
+    background-color: yellow;
+    padding: 5px;
+}

@@ -1,0 +1,53 @@
+.wrapper {
+    display: flex;
+    flex-direction: column; /*everything stacks Up and Down*/
+    min-height: 100vh;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* i just chaange the font family for my liking*/
+}
+
+header {
+    font-size: 32px;
+    height: 80px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.heading-section h1{
+    font-size: 36px;
+}
+
+.middle {
+    display: flex;
+    flex: 1; /* means " take up all the leftover space"*/
+}
+
+.sidebar {
+    background-color: #bbb;
+    padding: 20px;
+    width: 200px;
+}
+
+.sidebar h2 {
+    margin-bottom: 16px; /* this provide space below the Navigation heading */
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    height: 60px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: center; /* This helps to bring the copyright text to the center */
+}
