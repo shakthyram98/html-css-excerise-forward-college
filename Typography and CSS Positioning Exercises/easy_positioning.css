@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding-top: 60px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(70, 70, 176);
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.content {
+    padding: 20;
+    margin: 20px;
+}
+
+.container {
+    position: relative;
+    background-color: lightgray;
+    border: 1px solid black;
+    height: 150px;
+    margin: 20px;
+}
+
+p {
+    background-color: lightblue;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 10px;
+}

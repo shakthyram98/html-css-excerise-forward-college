@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #1663c8;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.sticky-nav {
+    background-color: #55697d;
+    position: sticky;
+    top: 0;
+    /* z-index: 100; */
+}
+
+.sticky-nav ul {
+    list-style: none; /*helps to remove the bullet point*/
+    display: flex;
+    justify-content: center;
+}
+
+/* ==== .sticky-nav ul li a ====> putting like this, it will target the "anchor tags" <a> */
+.sticky-nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none; /* helps to remove the "line" under the clickable section*/
+    padding: 14px 20px;
+}
+
+/* === hover use for background color for clickable link */
+.sticky-nav ul li a:hover {
+    background-color: #d9411b;
+}
+/* === This thing helps the content section */
+.content-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* === This one helps to to background color for each #section === */
+#section1 {
+    background-color: #ecf0f1;
+}
+#section2 {
+    background-color: #bdc3c7;
+}
+#section3 {
+    background-color: #95a5a6;
+}
+
+/* === This one helps to a small line to the h2 === */
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    width: 200px;
+    text-align: center;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
