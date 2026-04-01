@@ -1,0 +1,17 @@
+.box {
+    margin: 60px auto;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.3 ease; /* transition lives HERE on the base element */
+}
+
+.box:hover {
+    background-color: crimson;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* shadow */
+}
