@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bootstrap Utility Classes Practice</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- "mt-4" means margin-top=4 -->
+        <div class="container mt-4">
+            <!--"text-center" means its centers the text-->
+            <h1 class="text-center">Bootstrap Utilities Classes</h1>
+
+            <!-- "text-center" centers the text-->
+            <!-- Paragraph 1: Blue, bold, centered -->
+            <p class="text-primary fw-bold text-center">This paragraph has blue text, is bold, and is centered</p>
+            <!-- Paragraph 2:"bg-success"= Green background, "text-white"= white text, "p-3"= padding size 3 -->
+            <p class="bg-success text-white p-3">This paragraph has a green background, white text, and padding of size 3</p>
+            <!--Paragraph 3:"bg-secondary"= Gray background, and "text-end" make the paragraph right-aligned,"mt-4"= margin-top size 4-->
+            <p class="bg-secondary text-white text-end mt-4">This paragraph has a gray background, right-aligned text, and margin-top of size 4.</p>
+
+            <!-- The PARENT is told to center everything inside it -->
+            <div class="text-center mt-3">
+                <!--"btn-primary" means the button blue and "mt-3" means margin-top size 3-->
+                <button class="btn btn-primary">Centered Button</button>
+            </div>
+
+            <!--"shadow"= adds a drop shadow
+            "p-3"= padding size of 3
+            "mb-4"= margin-bottom size of 4
+            "bg-white"= white background 
+            "rounded"= slightly rounded corners. Similar to border-radius-->
+            <div class="shadow p-3 mb-4 bg-white rounded">This div has a shadow and contains some texts.</div>
+        </div>
+    </body>
+</html>
