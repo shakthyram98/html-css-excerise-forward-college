@@ -1,0 +1,31 @@
+/* This helps to turn the container INTO a grid */
+.grid-container {
+    display: grid;
+
+    /* This is a 4 equal columns. repeat(4, 1fr) means:
+       "repeat 4 times, each takes 1 equal fraction of space" */
+    grid-template-columns: repeat(4, 1fr);
+
+    /* Giving an each row is 80px tall */
+    grid-auto-rows: 80px;
+
+    /* you're giving 15px gap between ALL rows and columns, if not its gg */
+    gap: 15px;
+}
+
+/* You're using flexbox to style every grid item */
+.grid-item {
+    border: 2px solid #333;
+    /* This helps you to center the number horizontally + vertically */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* This one gives different color for group .odd and group .even */
+.odd {
+    background-color: #200edd;
+}
+.even {
+    background-color: #b10c67;
+}
